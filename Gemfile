@@ -8,6 +8,11 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5.x'
 gem 'jbuilder', '~> 2.5'
+gem 'react-rails'
+gem 'sprockets-rails', github: 'rails/sprockets-rails', branch: 'master'
+gem 'sprockets', github: 'rails/sprockets', branch: 'master'
+gem 'babel-transpiler'
+
 group :development, :test do
   gem 'byebug', platform: :mri
 end
