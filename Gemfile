@@ -12,7 +12,7 @@ gem 'react-rails'
 gem 'sprockets-rails', github: 'rails/sprockets-rails', branch: 'master'
 gem 'sprockets', github: 'rails/sprockets', branch: 'master'
 gem 'babel-transpiler'
-
+gem 'npm-rails'
 group :development, :test do
   gem 'byebug', platform: :mri
 end

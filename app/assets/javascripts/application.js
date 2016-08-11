@@ -16,5 +16,7 @@
 //= require bootstrap-sprockets
 //= require react
 //= require react_ujs
+//= require_tree ./react-bootstrap
 //= require components
-//= require_tree .
+//= require_tree ./channels
+//= require_tree 
